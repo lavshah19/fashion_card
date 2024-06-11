@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    color: #6C6C6C;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+   background-color:wheat;
+   
+    min-width: 350px;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 7px; */
+    border-radius: 15px;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    color: #6C6C6C;
+    margin-bottom: 8px;
+    }
+.icons .fa-arrow-left{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.menu-icon i{
+font-size: 1.2rem;
+margin-left: 6px;
+cursor: pointer;
+
+}
+.title{
+    text-align: center;
+    color: #6C6C6C;
+}
+.title p i{
+    color: rgba(255, 255, 0, 0.499);
+    font-size: 1rem;
+}
+.title h3{
+    font-size: 1.4rem;
+   
+}
+.title p{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 530;
+}
+.img{
+    /* width: 100%; */
+    background-image: url("pic.webp");
+  width: 285px;
+   height: 285px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 14px;
+  
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0px 13px 0px;
+}
+
+.size ,.color{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 13px;
+    
+
+}
+.size p,.color p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.size-selection,.select-color{
+    display: flex;
+    gap: 7px;
+    margin-top: 6px;
+
+}
+
+.size-selection .sizes{
+    width: 40px;
+    height: 35px;
+    border: 2px solid gray;
+ 
+    font-size: 0.85rem;
+    border-radius: 11px;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.select-color .colors{
+    width: 25px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+}
+.purchase{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    align-items: center;
+}
+.purchase p{
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+button{
+    width: 122px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    background-color: #323232;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
